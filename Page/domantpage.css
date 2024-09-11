@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.contact {
+    background-image: url(image/1723714981799.jpg);
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.contact h1{
+    margin-bottom: 20px;
+    font-size: 25px; 
+    padding-right: 100px 
+}
+
+.empty-div {
+    background-color: #bb5e13;
+    height: 100px;
+
+}
+
+
+
+.message{
+    background-color: #274e4b;
+    color: white;
+    padding: 50px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    margin-top: 120px;
+}
+
+.message h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    text-align: left;
+    padding-left: 80px;
+    padding-top:2px;
+}
+.message form{
+    display: flex;
+    flex-direction: column;
+    max-width: 60px;
+    margin: 0 auto;
+}
+
+.message input,
+textarea{
+    margin-bottom: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 250px;
+}
+
+.message button{
+    position: relative;
+    justify-content: right;
+}
+
+.faq-container{
+    text-align: left;
+    width: 50%;
+    position: absolute;
+}
+
+
+
+footer {
+    background-color: #1e3d3a;
+    color: white;
+    padding: 50px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project, .subscribe {
+    max-width: 500px;
+}
+
+footer h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer button, footer input {
+    padding: 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer button {
+    background-color: #f4b000;
+    color: white;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #e49a00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

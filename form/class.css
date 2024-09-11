@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#000000,#ddffff);
+    background-size: cover;
+    animation: gradientAnimation 10s ease infinite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px ;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333333;
+}
+
+.form button{
+    width: 105%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px ;
+    background: radial-gradient(cyan,green);
+    color: white; 
+    cursor: pointer; 
+}
+
+.form h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.form p{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.form{
+    justify-content: left;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
